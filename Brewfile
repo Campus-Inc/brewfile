@@ -18,7 +18,8 @@ upgrade
 
 # Add Repository
 #tap homebrew/versions || true
-tap KobayashiTaishi/homebrew-cask || true
+tap phinze/cask || true
+tap caskroom/homebrew-versions || true
 tap homebrew/binary || true
 
 # Packages for develop
@@ -40,12 +41,12 @@ cask install google-chrome
 cask install virtualbox
 cask install vagrant
 #cask install keyremap4macbook
-cask install hipchat
+#cask install hipchat
 #cask install macvim
 cask install github
 cask install iterm2
 cask install alfred
-cask install sublime-text
+cask install sublime-text3
 cask install dropbox
 
 # Remove outdated versions
