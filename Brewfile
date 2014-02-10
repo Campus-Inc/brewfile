@@ -50,8 +50,8 @@ cask install sublime-text3
 cask install dropbox
 
 # CaskroomをAlfredの検索パスに追加
-brew cask alfred
-brew cask alfred link 
+cask alfred
+cask alfred link 
 
 # Remove outdated versions
 cleanup
